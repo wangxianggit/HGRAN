@@ -1,4 +1,4 @@
-This repository is the implementation of [Heterogeneous Graph Relation Attention Networks(HGRAN)]
+This repository is the implementation of [Heterogeneous Graph Relation Attention Network(HGRAN)]
 
 ## Installation
 
