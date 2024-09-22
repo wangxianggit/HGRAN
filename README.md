@@ -1,4 +1,4 @@
-This repository is the implementation of paper "Hybrid-attention mechanism based heterogeneous graph representation learning" published in Expert Systems with Applications
+This repository is the implementation of [paper](https://www.sciencedirect.com/science/article/pii/S0957417424008297) published in Expert Systems with Applications
 
 ## Installation
 
