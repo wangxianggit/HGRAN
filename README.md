@@ -1,4 +1,4 @@
-This repository is the implementation of [Heterogeneous Graph Relation Attention Network(HGRAN)]
+This repository is the implementation of paper "Hybrid-attention mechanism based heterogeneous graph representation learning" published in Expert Systems with Applications
 
 ## Installation
 
