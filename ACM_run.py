@@ -17,7 +17,7 @@ import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# 训练set
+# Training set
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--epoch', type=int, default=50,
@@ -66,7 +66,7 @@ if __name__ == '__main__':
     channels = len(edges)
 
     node_features = torch.from_numpy(node_features).type(torch.cuda.FloatTensor)
-    train_node = torch.from_numpy(np.array(labels[0])[:, 0]).type(torch.cuda.LongTensor)  # 训练节点和labels
+    train_node = torch.from_numpy(np.array(labels[0])[:, 0]).type(torch.cuda.LongTensor)  # Training nodes and labels
     train_target = torch.from_numpy(np.array(labels[0])[:, 1]).type(torch.cuda.LongTensor)  # val
     valid_node = torch.from_numpy(np.array(labels[1])[:, 0]).type(torch.cuda.LongTensor)
     valid_target = torch.from_numpy(np.array(labels[1])[:, 1]).type(torch.cuda.LongTensor)
