@@ -11,7 +11,7 @@ We use data provided by GTN(https://github.com/seongjunyun/Graph_Transformer_Net
 
 Take DBLP as an example to show the formats of input data:
 
-`node_features.pkl` is a numpy array whose shape is (num_of_nodes, num_of_features). It contains input node features.
+`node_features.pkl` is a numpy array whose shape is (num_of_nodes, num_of_features). It contains input node features. 
 
 `edges.pkl` is a list of scipy sparse matrices. Each matrix has a shape of (num_of_nodes, num_of_nodes) and is formed by edges of a certain edge type.
 
